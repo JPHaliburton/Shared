@@ -1,0 +1,13 @@
+Embarrassed to ask for help, but tired of banging my head against the monitor, and can't find a solution elsewhere.
+
+I started following along since the beginning of Coding 101, and was one of the first members here. Everything was working fine, and I could play with the code.
+
+Then I rebuilt my computer to upgrade from Windows 7 32-bit to 64-bit, and add in a second HDD. This week I was at the point in reinstalling everything that I could start over learning to code in C# again, but the code won't run.
+
+I thought I did everything as I had done before. I've played and paused the video to make sure I have the proper application and all the code, but it still gets errors like code 259 (0x103).
+
+My code: https://github.com/JPHaliburton/Shared/blob/master/ep001-jph.cs
+
+Complete output here: https://github.com/JPHaliburton/Shared/blob/master/C101_Ep001_Errors
+
+Any ideas where I have gone astray?﻿
