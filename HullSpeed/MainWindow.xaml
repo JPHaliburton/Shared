@@ -3,14 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="400" Width="640">
     <Grid Height="372" VerticalAlignment="Top" Margin="0,0,0,-2">
-        <Button x:Name="Calculate_Button" Content="Calculate" HorizontalAlignment="Left" Margin="76,288,0,0" VerticalAlignment="Top" Width="120" Click="Do_Calculation"/>
-        <TextBox x:Name="lwlIn_Box" HorizontalAlignment="Left" Height="23" Margin="461,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextChanged="lwlIn_Text"/>
+        <Label x:Name="Header_Label" Content="Displacement Hull Maximum Speed Calculator" HorizontalAlignment="Left" Margin="140,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.579,0.385" Width="362" FontWeight="Bold" FontSize="16"/>
         <Label x:Name="askLwl_Label" Content="What is the boat's waterline length in decimal feet?" HorizontalAlignment="Left" Margin="76,108,0,0" VerticalAlignment="Top" Width="360" FontSize="14"/>
+        <TextBox x:Name="lwlIn_Box" HorizontalAlignment="Left" Height="23" Margin="461,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:Name="error_Alert" Foreground="Red" HorizontalAlignment="Left" Height="20" Margin="150,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355"/>
         <Label x:Name="Output_Label" Content="The maximum calculated speed of the boat in knots is:" HorizontalAlignment="Left" Margin="76,189,0,0" VerticalAlignment="Top" Width="360" FontSize="14"/>
-        <TextBox x:Name="speed_Box" HorizontalAlignment="Left" Height="23" Margin="461,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextChanged="Speed"/>
+        <TextBox x:Name="speed_Box" HorizontalAlignment="Left" Height="23" Margin="461,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="Calculate_Button" Content="Calculate" HorizontalAlignment="Left" Margin="76,288,0,0" VerticalAlignment="Top" Width="120" Click="Do_Calculation"/>
         <Button x:Name="DoAnother_Button" Content="Refresh" HorizontalAlignment="Left" Margin="247,288,0,0" VerticalAlignment="Top" Width="125" Click="Refresh_Screen"/>
         <Button x:Name="exit_Button" Content="Quit" HorizontalAlignment="Left" Margin="436,288,0,0" VerticalAlignment="Top" Width="125" Click="Quit_Application"/>
-        <Label x:Name="Header_Label" Content="Displacement Hull Maximum Speed Calculator" HorizontalAlignment="Left" Margin="76,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.579,0.385" Width="460" FontWeight="Bold" FontSize="16"/>
 
     </Grid>
 </Window>
